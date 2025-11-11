@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algorithm Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Algorithms</h2>
+
+    <div class="category">
+      <button class="category-btn">Sorting ▾</button>
+      <div class="category-content">
+        <button class="algorithm-btn" id="mergeSort">Merge Sort Algorithm</button>
+        <button class="algorithm-btn" id="quickSort">Quicksort Algorithm</button>
+        <button class="algorithm-btn" id="insertionSort">Insertion Sort Algorithm</button>
+        <button class="algorithm-btn" id="selectionSort">Selection Sort Algorithm</button>
+        <button class="algorithm-btn" id="countingSort">Counting Sort Algorithm</button>
+        <button class="algorithm-btn" id="heapSort">Heap Sort Algorithm</button>
+        <button class="algorithm-btn" id="quickselect">Quickselect Algorithm</button>
+      </div>
+    </div>
+
+    <div class="category">
+      <button class="category-btn">Search ▾</button>
+      <div class="category-content">
+        <button class="algorithm-btn" id="binarySearch">Binary Search Algorithm</button>
+        <button class="algorithm-btn" id="kmp">KMP Algorithm</button>
+        <button class="algorithm-btn" id="boyerMoore">Boyer–Moore Majority Vote Algorithm</button>
+      </div>
+    </div>
+
+    <div class="category">
+      <button class="category-btn">Graph ▾</button>
+      <div class="category-content">
+        <button class="algorithm-btn" id="bfs">Breadth First Search (BFS) Algorithm</button>
+        <button class="algorithm-btn" id="dfs">Depth First Search (DFS) Algorithm</button>
+        <button class="algorithm-btn" id="kruskal">Kruskal’s Algorithm</button>
+        <button class="algorithm-btn" id="floydWarshall">Floyd Warshall Algorithm</button>
+        <button class="algorithm-btn" id="dijkstra">Dijkstra’s Algorithm</button>
+        <button class="algorithm-btn" id="bellmanFord">Bellman Ford Algorithm</button>
+        <button class="algorithm-btn" id="lee">Lee Algorithm</button>
+        <button class="algorithm-btn" id="floodFill">Flood Fill Algorithm</button>
+        <button class="algorithm-btn" id="floydCycle">Floyd’s Cycle Detection Algorithm</button>
+        <button class="algorithm-btn" id="unionFind">Union Find Algorithm</button>
+        <button class="algorithm-btn" id="topologicalSort">Topological Sort Algorithm</button>
+        <button class="algorithm-btn" id="kahnTopological">Kahn’s Topological Sort Algorithm</button>
+      </div>
+    </div>
+
+    <div class="category">
+      <button class="category-btn">Dynamic Programming ▾</button>
+      <div class="category-content">
+        <button class="algorithm-btn" id="kadane">Kadane’s Algorithm</button>
+        <button class="algorithm-btn" id="huffman">Huffman Coding Compression Algorithm</button>
+        <button class="algorithm-btn" id="euclid">Euclid’s Algorithm</button>
+      </div>
+    </div>
+
+  </div>
+<div class="main-content">
+    <canvas id="visualizer" width="800" height="400"></canvas>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
